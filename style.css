@@ -1,0 +1,94 @@
+:root {
+  --morado: #c9a6f9;
+  --fondo: #fcf9ee;
+  --arena: #ece2c3;
+}
+
+body {
+  background-color: var(--fondo);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+footer{
+    background-color: lightgray;
+}
+
+a{
+    margin-left: 0cm;
+}
+/* header */
+nav {
+  background-color: var(--morado);
+  margin-top: 0px;
+}
+
+ul {
+    display: flex;
+}
+
+.btn{
+    background-color: #c1c0f1;
+}
+
+li{
+    width: 100px;
+}
+
+.container-fluid{
+    margin-top: 0px;
+}
+
+.logo {
+  font-weight: 800;
+  font-size: 1.6rem;
+}
+.logo span {
+  color: #eb1ac4;
+}
+
+.hero-wrap {
+  background-color: var(--arena);
+  border-radius: 10px;
+}
+
+/* Secciones */
+.titulo-seccion {
+  background-color: var(--morado);
+  color: rgb(240, 235, 235);
+  text-align: center;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+/* Productos */
+.product-card img {
+  object-fit: cover;
+  height: 160px;
+}
+.product-card {
+  transition: transform 0.2s ease;
+}
+.product-card:hover {
+  transform: scale(1.03);
+}
+.body-outline-dark{
+    border-color: #7b2cbf;
+    color: #7b2cbf;
+    
+}
+
+/* Footer */
+footer {
+  background-color: #f6f6f3;
+  text-align: center;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .navbar .form-control {
+    width: 100%;
+  }
+  .logo {
+    margin-bottom: 8px;
+  }
+}
